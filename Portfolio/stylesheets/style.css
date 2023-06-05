@@ -1,0 +1,96 @@
+/* Lesson 1.7 assingment
+                Personal Portfolio 
+                ver: 1.0
+*/
+
+/* body {
+    background-image: url("https://media.wired.com/photos/5c6f46d93e8add2cdb917279/master/w_120");
+    z-index: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    
+
+}  */
+
+
+
+
+/* Top Contact--------------- */
+
+.top-contact {
+    display: grid;
+
+
+}
+
+.email-link {
+    max-width: 100px;
+    max-height: 50px;
+    position: absolute;
+    align-content: center;
+    
+}
+
+/* NAVBAR!!! ----------------  */
+
+.navbar /* parent section */ {
+    border: 2px dotted;
+    margin: 20px;
+    min-height: 65px;
+    max-height: 85px;
+    min-width: 30px;
+    max-width: 135px;
+    position: fixed;
+    display: flex;
+    flex-direction: end;
+    color: aquamarine;
+}
+
+.socials {
+    min-height: 65px;
+    max-height: 85px;
+    min-width: 30px;
+    max-width: 45px;
+}
+
+.projects {
+    min-height: 65px;
+    max-height: 85px;
+    min-width: 30px;
+    max-width: 45px;
+}
+
+.resume {
+    min-height: 65px;
+    max-height: 85px;
+    min-width: 30px;
+    max-width: 45px;
+}
+
+/* ABOUT------------------------ */
+
+.selfie {
+    border: 1px;
+}
+
+.name {
+    border: 1px;
+}
+
+.about {
+    border: 1px;
+}
+
+
+
+
+@media screen and (max-width: 680px) {
+    .navbar {
+      display: inline;
+      margin: auto;
+    }
+  }
